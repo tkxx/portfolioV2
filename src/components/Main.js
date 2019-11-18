@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/aboutPic.jpg'
-import pic02 from '../images/pic02.jpg'
+import pic02 from '../images/devBeatz-homepage.png'
 import pic03 from '../images/skillsImg2.jpg'
+import pic04 from '../images/projectify-homepage.png'
 import bsIcon from '../images/bootstrapIcon.svg'
 import css3Icon from '../images/css3Icon.svg'
 import html5Icon from '../images/html5Icon.svg'
@@ -90,22 +91,76 @@ class Main extends React.Component {
         >
           <h2 className="major">Portfolio</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <a href="http://devbeatz.xyz" target="_blank">
+              <img src={pic02} alt="devBeatz homepage" />
+            </a>
           </span>
+
+          <h3>
+            <a href="http://www.devbeatz.xyz/#/" target="_blank">
+              DEVBEATZ
+            </a>{' '}
+            <a
+              href="https://github.com/devbeatz/devbeatz"
+              target="_blank"
+              className="icon fa-github"
+            >
+              <span className="label">GitHub</span>
+            </a>
+          </h3>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            DevBeatz is the marketplace for aspiring producers and vocal artists
+            to trade their talents with each other. Producers registered onto
+            the site in order to upload their beats while vocal artists could
+            peruse through the selection. Producers had a customized dashboard
+            that tracked how much revenue they received from each individual
+            track, which tracks were their most popular, and which beats they
+            downloaded. Clients could browse through multiple genres of beats,
+            and they had the option to either purchase a beat for exclusive
+            rights or not.
+            <br />
+            <br />
+            This was a group project at DevMountain that was pitched,
+            wireframed, and developed within 2 weeks. I was responsible for the
+            visual design of the entire website and learned and implemented
+            ChartJS for the producers' dashboard.
+            <br />
+            <br />
+            <h4>Tech Used:</h4> HTML, CSS, Sass, AmazonS3, React JS, React
+            Hooks, Redux, React-Bootstrap, ChartJS, Express, NodeJS, PostgreSQL
           </p>
+          <span className="image main">
+            <a href="http://www.projectify.space" target="_blank">
+              <img src={pic04} alt="projectify homepage" />
+            </a>
+          </span>
+
+          <h3>
+            <a href="http://www.projectify.space" target="_blank">
+              PROJECTIFY
+            </a>{' '}
+            <a
+              href="https://github.com/tkxx/Projectify"
+              target="_blank"
+              className="icon fa-github"
+            >
+              <span className="label">GitHub</span>
+            </a>
+          </h3>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            Projectify is a gamification of your task management experience.
+            Rather than running through a regular to-do list, give yourself more
+            incentive to finish! In Projectify, you are an alien that has
+            crash-landed on Earth and need money (points) to repair your
+            spaceship in order to head back home.
+            <br />
+            <br />
+            This was my personal project at DevMountain. I pitched, wireframed,
+            and developed the entire site within 2 weeks.
+            <br />
+            <br />
+            <h4>Tech Used:</h4> HTML, CSS, Sass, React JS, Redux,
+            React-Bootstrap, PostgreSQL, Node, Express, Stripe
           </p>
           {close}
         </article>
