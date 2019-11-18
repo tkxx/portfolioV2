@@ -54,8 +54,7 @@ class Main extends React.Component {
             aesthetically pleasing and fully functional websites that clients
             enjoy. Whether on my own or collaborating with a team, I dedicate
             myself to ensuring that a story has come to life. I believe in
-            creating products that benefit the world at large. View my{' '}
-            <a href="#work">work here</a>.
+            creating products that benefit the world at large.
           </p>
           <p>
             <h3>Long Version:</h3> In the life before this one, I used to head
