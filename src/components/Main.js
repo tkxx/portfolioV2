@@ -91,18 +91,15 @@ class Main extends React.Component {
         >
           <h2 className="major">Portfolio</h2>
           <span className="image main">
-            <a href="http://devbeatz.xyz" target="_blank">
+            <a href="http://devbeatz.xyz">
               <img src={pic02} alt="devBeatz homepage" />
             </a>
           </span>
 
           <h3>
-            <a href="http://www.devbeatz.xyz/#/" target="_blank">
-              DEVBEATZ
-            </a>{' '}
+            <a href="http://www.devbeatz.xyz/#/">DEVBEATZ</a>{' '}
             <a
               href="https://github.com/devbeatz/devbeatz"
-              target="_blank"
               className="icon fa-github"
             >
               <span className="label">GitHub</span>
@@ -130,18 +127,15 @@ class Main extends React.Component {
             Hooks, Redux, React-Bootstrap, ChartJS, Express, NodeJS, PostgreSQL
           </p>
           <span className="image main">
-            <a href="http://www.projectify.space" target="_blank">
+            <a href="http://www.projectify.space">
               <img src={pic04} alt="projectify homepage" />
             </a>
           </span>
 
           <h3>
-            <a href="http://www.projectify.space" target="_blank">
-              PROJECTIFY
-            </a>{' '}
+            <a href="http://www.projectify.space">PROJECTIFY</a>{' '}
             <a
               href="https://github.com/tkxx/Projectify"
-              target="_blank"
               className="icon fa-github"
             >
               <span className="label">GitHub</span>
@@ -297,7 +291,6 @@ class Main extends React.Component {
             <li>
               <a
                 href="https://twitter.com/lazyloading_"
-                target="_blank"
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
@@ -306,25 +299,19 @@ class Main extends React.Component {
             <li>
               <a
                 href="https://instagram.com/lazy.loading"
-                target="_blank"
                 className="icon fa-instagram"
               >
                 <span className="label">Instagram</span>
               </a>
             </li>
             <li>
-              <a
-                href="https://github.com/tkxx"
-                target="_blank"
-                className="icon fa-github"
-              >
+              <a href="https://github.com/tkxx" className="icon fa-github">
                 <span className="label">GitHub</span>
               </a>
             </li>
             <li>
               <a
                 href="https://medium.com/@lazy.loading"
-                target="_blank"
                 className="icon fa-medium"
               >
                 <span className="label">Medium</span>
