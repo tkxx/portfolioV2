@@ -2,7 +2,19 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/aboutPic.jpg'
 import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import pic03 from '../images/skillsImg2.jpg'
+import bsIcon from '../images/bootstrapIcon.svg'
+import css3Icon from '../images/css3Icon.svg'
+import html5Icon from '../images/html5Icon.svg'
+import jsIcon from '../images/javascriptIcon.svg'
+import reactIcon from '../images/reactIcon.svg'
+import pSQLicon from '../images/postgresIcon.svg'
+import scssIcon from '../images/scssIcon.svg'
+import reduxIcon from '../images/reduxIcon.svg'
+import expressJSicon from '../images/expressJSicon.svg'
+import gitIcon from '../images/gitIcon.svg'
+import nodeJsIcon from '../images/nodeJSwhite.svg'
+import '../assets/css/techIcons.css'
 
 class Main extends React.Component {
   render() {
@@ -36,17 +48,17 @@ class Main extends React.Component {
             />
           </span>
           <p>
-            <b>Short Version:</b> I am a full stack web developer looking for my
-            next opportunity to create change. My aim is to create aesthetically
-            pleasing and fully functional websites that clients enjoy. Whether
-            on my own or collaborating with a team, I dedicate myself to
-            ensuring that a story has come to life. I believe in creating
-            products that benefit the world at large. View my{' '}
+            <h3>Short Version:</h3> I am a full stack web developer looking for
+            my next opportunity to create change. My aim is to create
+            aesthetically pleasing and fully functional websites that clients
+            enjoy. Whether on my own or collaborating with a team, I dedicate
+            myself to ensuring that a story has come to life. I believe in
+            creating products that benefit the world at large. View my{' '}
             <a href="#work">work here</a>.
           </p>
           <p>
-            <b>Long Version:</b> In the life before this one, I used to head to
-            Panera during my lunch breaks for their tomato soup, Frontega
+            <h3>Long Version:</h3> In the life before this one, I used to head
+            to Panera during my lunch breaks for their tomato soup, Frontega
             sandwich, and free WiFi. My laptop opened to the latest JavaScript
             problem presented through a free learning service, and my lunch
             would stay uneaten as I tried to understand and solve the problem.
@@ -76,7 +88,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Portfolio</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -105,19 +117,90 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">Skills {'&'} Experience</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
+          <h3>Tech Stack</h3>
+          <div className="tech-icons">
+            <div>
+              <img src={html5Icon} alt="html icon" className="icon-resize" />
+              <span className="tech-skill">HTML</span>
+            </div>
+            <div>
+              <img src={css3Icon} alt="css icon" className="icon-resize" />
+              <span className="tech-skill">CSS</span>
+            </div>
+            <div>
+              <img src={jsIcon} alt="javascript icon" className="icon-resize" />
+              <span className="tech-skill">JS ES6</span>
+            </div>
+            <div>
+              <img src={reactIcon} alt="react icon" className="icon-resize" />{' '}
+              <span className="tech-skill">ReactJS</span>
+            </div>
+            <div>
+              <img src={reduxIcon} alt="redux icon" className="icon-resize" />{' '}
+              <span className="tech-skill">Redux</span>
+            </div>
+            <div className="break"></div>
+            <div>
+              <img
+                src={pSQLicon}
+                alt="postgresql icon"
+                className="icon-resize"
+              />{' '}
+              <span className="tech-skill">PostgreSQL</span>
+            </div>
+            <div>
+              <img src={bsIcon} alt="bootstrap icon" className="icon-resize" />{' '}
+              <span className="tech-skill">Bootstrap</span>
+            </div>
+            <div>
+              <img src={scssIcon} alt="sass icon" className="icon-resize" />{' '}
+              <span className="tech-skill">SCSS</span>
+            </div>
+            <div>
+              <img
+                src={expressJSicon}
+                alt="express js icon"
+                className="icon-resize"
+              />{' '}
+              <span className="tech-skill">Express</span>
+            </div>
+            <div>
+              <img
+                src={nodeJsIcon}
+                alt="node js icon"
+                className="icon-resize"
+              />{' '}
+              <span className="tech-skill">NodeJS</span>
+            </div>
+            <div>
+              <img src={gitIcon} alt="git icon" className="icon-resize" />{' '}
+              <span className="tech-skill">Git/Github</span>
+            </div>
+          </div>
+          <p />
+          <h3>Tech Education</h3>
+          <b>Modern React with Redux (Udemy)</b> Oct 2019-Present
+          <br />
+          React JS Curriculum
+          <br />
+          React, Redux, React Hooks
+          {/* <p /> */}
+          <br />
+          <br />
+          <b>DevMountain (Dallas, Texas)</b> Jun 2019-Sept 2019
+          <br />
+          Full Stack/SERN Web Immersive Curriculum
+          <br />
+          Github, HTML/CSS, Javascript, React, Redux, NodeJS, Express,
+          PostgreSQL
+          <p />
+          <h3>PROFESSIONAL EXPERIENCE</h3>
+          Click here for more in-depth information.
+          <p />
           {close}
         </article>
 
@@ -128,7 +211,11 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contact</h2>
+          <h2 className="major">Contact Me!</h2>
+          I'm open to <b>full-time positions</b> or <b>freelance work</b>.
+          Please send a message, and I will respond as soon as I can!
+          <br />
+          <br />
           <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
@@ -154,28 +241,38 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
+                href="https://twitter.com/lazyloading_"
+                target="_blank"
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
+              <a
+                href="https://instagram.com/lazy.loading"
+                target="_blank"
+                className="icon fa-instagram"
+              >
                 <span className="label">Instagram</span>
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+                href="https://github.com/tkxx"
+                target="_blank"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://medium.com/@lazy.loading"
+                target="_blank"
+                className="icon fa-medium"
+              >
+                <span className="label">Medium</span>
               </a>
             </li>
           </ul>

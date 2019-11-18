@@ -28,7 +28,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            About
+            Who
           </a>
         </li>
         <li>
@@ -38,7 +38,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Portfolio
+            What
           </a>
         </li>
         <li>
@@ -48,7 +48,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            Skills {'&'} Experience
+            How
           </a>
         </li>
         <li>
@@ -58,7 +58,7 @@ const Header = props => (
               props.onOpenArticle('contact')
             }}
           >
-            Contact
+            Where
           </a>
         </li>
       </ul>
